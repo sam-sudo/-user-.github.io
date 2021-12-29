@@ -6,6 +6,39 @@
 */
 
 
+
+#ctrl:checked ~ * .spanish,
+.ingles
+{
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  pointer-events: none;
+}
+
+#ctrl:checked ~ * .ingles
+{
+  display: block;
+  position: static;
+  opacity: 1;
+  width: 100%;
+  pointer-events: initial  
+}
+
+.ctrl{
+    text-align: center;
+}
+
+
+#ctrl
+{
+  position: absolute;
+  opacity: 0;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -235,9 +268,36 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top center;
+    background: url("../img/fondo_.jpg")  ;
+    background-repeat: no-repeat ;
+    background-position-x: center;
     background-size: cover;
 }
+
+.hoverText{
+    position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.hoverText .hoverText_text {
+    min-width: 8em;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    top: 2.5em;
+    left: -1.5em;
+}
+
+.hoverText:hover .hoverText_text{
+    visibility: visible;
+}
+
 
 #hero:before {
     content: "";
@@ -247,7 +307,7 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 #hero .hero-container {
@@ -1119,6 +1179,7 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
+    text-align: center;
     padding: 15px;
     color: #f4f6fd;
     font-size: 14px;
