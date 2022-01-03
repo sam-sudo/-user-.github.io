@@ -8,13 +8,161 @@
     <title>Excel app tutorial</title>
     <style>
         body{
+            text-align: left;
+            font-size: 1.5em;
+            margin: 1em;
+            color: black;
+        }
+        img{
+            border: black 1px solid;
+            width: 90%;
+            max-width: 50%;
+            display: block;
+            margin: auto;
+        }
+        h1{
+            font-size: 5em;
             text-align: center;
         }
+        a{
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+        .center{
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+        pre{
+            border: black 3px solid;
+            text-align: left;
+            background-color: rgb(167, 167, 167);
+            overflow-x: scroll;
+            width: 50%;
+            padding-left: none;
+            display: block;
+            margin: auto;
+        }
+        button{
+            text-align: center;
+            font-size: 1.3em;
+            display: block;
+            margin: auto;
+        }
     </style>
+    <script>
+        function CopyToClipboard(containerid) {
+            if (document.selection) {
+                    var range = document.body.createTextRange();
+                    range.moveToElementText(document.getElementById(containerid));
+                    range.select().createTextRange();
+                    document.execCommand("copy");
+                } else if (window.getSelection) {
+                    var range = document.createRange();
+                    range.selectNode(document.getElementById(containerid));
+                    window.getSelection().addRange(range);
+                    document.execCommand("copy");
+                    alert("Código copiado!!")
+            }
+        }   
+    </script>
 </head>
 <body>
 
     <h1>Tutorial</h1>
-    
+
+    <p>
+        La idea básica es pasar tus datos que manejas en excel de forma local a la nube,
+        de esta forma si tienes un robo, fuga de datos o caulquier problema físico seguirasteniendo tus datos guardados.<br><br>
+        Esta app te facilita la consulta de tus datos de forma más dinámica que ir a tu ordenador abrir tu excel y buscar los datos de forma muy engorrosa. <br><br>
+        Ademas todos los cambios que realices en el excel se podrá observar en la app con tan solo recargar la lista.
+    </p>
+    <br>
+    <p class="center"><b><i>QUE TODOS ESTOS PASOS SE REALIZAN EN EL ORDENADOR</i></b> </p>
+
+    <h2>Paso 1</h2>
+    <p>
+        Primero tienes que crear con tu cuenta de google una hoja de calculo.
+    </p>
+
+    <img src="img/first_step_1.PNG" alt="">
+    <br>
+    <img src="img/first_step_2.PNG" alt="">
+
+    <h2>Paso 2</h2>
+    <p>
+        Ya podemos olvidar nuestra antigua hoja de calculo.
+        <br><br>
+        A continuación dentro de la hoja de calculo de google vamos a <b>"Extensión/App Script"</b> .
+        <br><br>
+        <img src="img/app_script.jpg" alt="" >
+
+        <br><br>
+        Dentro de aquí tenemos que pegar el siguiente código:
+        <br><br>
+        <button  id="button1" onclick="CopyToClipboard('div1')"> Click to copy </button >
+        <pre id="div1">
+            function doGet() {
+                var result = {};
+                var final_result = {};
+                var database = SpreadsheetApp.getActive().getName();
+                var sheets = SpreadsheetApp.getActiveSpreadsheet().getSheets();
+                
+              
+                sheets.forEach(sheet => {
+                  //console.log(sheet.getName());
+                  var hoja = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet.getName()).getDataRange().getValues();
+                  var rows = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet.getName()).getLastColumn();
+                  
+                  result[sheet.getName()] = makeObject(hoja, rows);
+                });
+              
+                final_result[database] = result;
+                
+                //console.log(final_result);
+                return ContentService.createTextOutput(JSON.stringify(final_result)).setMimeType(ContentService.MimeType.JSON)
+                
+              }
+              
+              function makeObject(multiArr, num_rows) {
+                var obj = [];
+              
+                for (var row = 1; row < multiArr.length; row++) {
+                    var item ={};
+                    
+                    for(var column = 0; column < num_rows; column++){
+                      item[multiArr[0][column]] = multiArr[row][column]
+                    }
+                    obj.push(item);
+                  }
+              
+                  //console.log(item)
+              
+                return obj;
+              }
+        </pre>
+        <br><br>
+        <img src="img/app_script_code.PNG" alt="">
+    </p>
+
+    <h2>Paso 3</h2>
+    <p>
+        Ya solo nos falta unos pocos pasos:
+        <br>
+        <br>- <b>Darle a implementar/nueva implementacón.</b><br>
+        <br>- <b>El tipo de implentación es Aplicación Web.</b><br>
+        <br>- <b>Ponemos un nombre cualquiera.</b><br>
+        <br>- <b>En quien tiene acceso le damos a cualquier usuario.</b><br>
+        <br>- <b>Aceptamos los permisos y conectamos con la cuenta de google donde hemos creado nuestra nueva hoja de calculo.
+    </p>
+
+    <img src="img/implementation_1.PNG" alt="">
+    <img src="img/implementation.png" alt="">
+
+    <h2>Paso 4</h2>
+    <p>
+        Y listo!!! Ya solo tienes que copiar la url que nos ofrece App Script y podras pegarla en la siguiente pantalla.
+    </p>
 </body>
 </html>
