@@ -1,37 +1,94 @@
-## Welcome to GitHub Pages
+# ¡Hola! 👋 Soy Samuel
 
-You can use the [editor on GitHub](https://github.com/sam-sudo/sam-sudo.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+¡Bienvenido/a a mi perfil de GitHub! Soy Samuel, un apasionado por todo lo relacionado con moblie y Android. Actualmente, trabajo como Android developer y me especializo en servicios de Android.
+<p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p>
+    <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-23A9F2?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Github-181717?style=flat-square&logo=GitHub&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Git-F44D27?style=flat-square&logo=Git&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=NPM&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Trello-0079BF?style=flat-square&logo=Trello&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Slack-E01563?style=flat-square&logo=Slack&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Notion-000000?style=flat-square&logo=Notion&logoColor=white"/><br/>
+  </p>
+</p>
 
-### Markdown
+## Posición actual
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### WIPAY - Android developer
+01/02/2023 - Actualmente
 
-```markdown
-Syntax highlighted code block
+Desarrollo de un servicio Android de telemetría en dispositivos POS, conectando AWS a estos dispositivos y dando una solución para controlar, cambiar parametros, borrar apps, instalar apps y actualizarlas remotamente.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Proyectos Destacados
 
-1. Numbered
-2. List
+<table>
+  <tr>
+  
+  <td width="50%">
+  <h3 align="center">App para comprar y vender objetos 3D</h3>
+  <div align="center">
+  <a href="https://github.com/sam-sudo/3DMarket" target="_blank">
+    <img src="https://github.com/sam-sudo/sam-sudo/blob/main/assets/img/3dMarket/complete_app.jpg" width="400" height="200" alt="App para comprar y vender objetos 3D">
+  </a>
+  <p>
+  <a href="https://github.com/sam-sudo/3DMarket" target="_blank">
+  <img src="https://img.shields.io/badge/CÓDIGO-ff9?style=for-the-badge&logo=github&logoColor=black">
+  </a>
+  </a>
+  </p>
+  <p>App construida en Android con java, para proyecto final de grado superior.
+  Aqui hemos creado una app parecida a wallapop donde puedes subir o buscar productos 3D.
+  Usamos un backend con <b>STRIPE</b> para relizar los pagos simulaods.  
+  </p>
+  </div>                                                                                    
+  </td>
 
-**Bold** and _Italic_ and `Code` text
+  <td width="50%">
+                <br>
+  <h3 align="center">App para apuntar tareas</h3>
+  <div align="center">                                       
+  <a href="https://github.com/sam-sudo/Ionic-Task" target="_blank">
+      <img src="https://github.com/sam-sudo/sam-sudo/blob/main/assets/img/ionicTask/complete_app_task.jpg" width="400" he alt="App para comprar y vender objetos 3D">
+  </a>
+  <br>
+  <p>
+  <a href="https://github.com/sam-sudo/Ionic-Task" target="_blank">
+  <img src="https://img.shields.io/badge/C%C3%93DIGO-80ffaa?style=for-the-badge&logo=github&logoColor=black">
+  </a>
+  </a>
+  </p>
+  </p>
+  App para anotar tareas en modo local o en la nube con firebase, donde podremos compartir la lista con otras personas y editar esta en tiempo real.
+    Esta desarrollada en IONIC y es compatible con ANDROID e IOS.
+  </p>
+  </div>  
+  </td>                                                           
+</table>  
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Habilidades
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sam-sudo/sam-sudo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Mobile:
+  - Android - java/kotlin
+  - React native
+  - Firebase / supabese
+  - AWS - Shadows / Jobs
+  - Junit4
+  - Maestro framework to test mobile UI
+  - Gitflow
 
-### Support or Contact
+## Idiomas
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  - Español (nativo)
+  - Inglés (avanzado)
+
+## Contacto
+
+- Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/samuel-hueso-garc%C3%ADa-95330719b/).
+- Tambien puedes escriberme al correo de samuelhueso19@gmail.com
+
+¡Gracias por visitar mi perfil! No dudes en ponerte en contacto si tienes alguna pregunta o sugerencia.
