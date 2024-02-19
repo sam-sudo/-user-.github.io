@@ -1,6 +1,7 @@
 # ¡Hola! 👋 Soy Samuel
 
 ¡Bienvenido/a a mi perfil de GitHub! Soy Samuel, un apasionado por todo lo relacionado con moblie y Android. Actualmente, trabajo como Android developer y me especializo en servicios de Android.
+Tambíen he ampliando mi perfil para poder desarrollar la parte de la UI de Android y el desarrollo completo de una app con las mejores practicas, mvvm, SOLID y clean arquitecture.
 <p>
 
 <p>
@@ -11,6 +12,14 @@
     <img src="https://img.shields.io/badge/-Trello-0079BF?style=flat-square&logo=Trello&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Slack-E01563?style=flat-square&logo=Slack&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Notion-000000?style=flat-square&logo=Notion&logoColor=white"/><br/>
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+    <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+    <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white"/><br/>
+    <img src="https://img.shields.io/badge/Android-Kotlin-76B900?style=for-the-badge&logo=android&logoColor=white"/><br/>
+    <img src="https://img.shields.io/badge/Android-Java-ED1C24?style=for-the-badge&logo=android&logoColor=white"/>
   </p>
 </p>
 
