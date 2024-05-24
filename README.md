@@ -35,47 +35,50 @@ Desarrollo de un servicio Android de telemetría en dispositivos POS, conectando
 
 <table>
   <tr>
-  
-  <td width="50%">
-  <h3 align="center">App para comprar y vender objetos 3D</h3>
-  <div align="center">
-  <a href="https://github.com/sam-sudo/3DMarket" target="_blank">
-    <img src="https://github.com/sam-sudo/sam-sudo/blob/main/assets/img/3dMarket/complete_app.jpg" width="400" height="200" alt="App para comprar y vender objetos 3D">
-  </a>
-  <p>
-  <a href="https://github.com/sam-sudo/3DMarket" target="_blank">
-  <img src="https://img.shields.io/badge/CÓDIGO-ff9?style=for-the-badge&logo=github&logoColor=black">
-  </a>
-  </a>
-  </p>
-  <p>App construida en Android con java, para proyecto final de grado superior.
-  Aqui hemos creado una app parecida a wallapop donde puedes subir o buscar productos 3D.
-  Usamos un backend con <b>STRIPE</b> para relizar los pagos simulaods.  
-  </p>
-  </div>                                                                                    
-  </td>
+    <td width="50%" style="vertical-align:top; text-align:center;">
+      <h3>App para comprar y vender objetos 3D</h3>
+      <div style="display:flex; justify-content:center; align-items:center; height:300px;">
+        <a href="https://github.com/sam-sudo/3DMarket" target="_blank">
+          <img src="assets/img/3dMarket/complete_app_presentacion.png" style="max-width:100%; height:auto; max-height:300px;" alt="App para comprar y vender objetos 3D">
+        </a>
+      </div>
+      <div style="height:200px;">
+        <p>
+          <a href="https://github.com/sam-sudo/3DMarket" target="_blank">
+            <img src="https://img.shields.io/badge/CÓDIGO-ff9?style=for-the-badge&logo=github&logoColor=black">
+          </a>
+        </p>
+        <p>
+          App construida en Android con java, para proyecto final de grado superior.
+          Aqui hemos creado una app parecida a wallapop donde puedes subir o buscar productos 3D.
+          Usamos un backend con <b>STRIPE</b> para realizar los pagos simulados.
+        </p>
+      </div>
+    </td>
+    <td width="50%" style="vertical-align:top; text-align:center;">
+      <h3>App para apuntar tareas</h3>
+      <div style="display:flex; justify-content:center; align-items:center; height:300px;">
+        <a href="https://github.com/sam-sudo/Ionic-Task" target="_blank">
+          <img src="assets/img/ionicTask/complete-app_task_presentation.png" style="max-width:100%; height:auto; max-height:300px;" alt="App para apuntar tareas">
+        </a>
+      </div>
+      <div style="height:200px;">
+        <p>
+          <a href="https://github.com/sam-sudo/Ionic-Task" target="_blank">
+            <img src="https://img.shields.io/badge/C%C3%93DIGO-80ffaa?style=for-the-badge&logo=github&logoColor=black">
+          </a>
+        </p>
+        <p>
+          App para anotar tareas en modo local o en la nube con firebase, donde podremos compartir la lista con otras personas y editar esta en tiempo real.
+          Esta desarrollada en IONIC y es compatible con ANDROID e IOS.
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
 
-  <td width="50%">
-                <br>
-  <h3 align="center">App para apuntar tareas</h3>
-  <div align="center">                                       
-  <a href="https://github.com/sam-sudo/Ionic-Task" target="_blank">
-      <img src="https://github.com/sam-sudo/sam-sudo/blob/main/assets/img/ionicTask/complete_app_task.jpg" width="400" he alt="App para comprar y vender objetos 3D">
-  </a>
-  <br>
-  <p>
-  <a href="https://github.com/sam-sudo/Ionic-Task" target="_blank">
-  <img src="https://img.shields.io/badge/C%C3%93DIGO-80ffaa?style=for-the-badge&logo=github&logoColor=black">
-  </a>
-  </a>
-  </p>
-  </p>
-  App para anotar tareas en modo local o en la nube con firebase, donde podremos compartir la lista con otras personas y editar esta en tiempo real.
-    Esta desarrollada en IONIC y es compatible con ANDROID e IOS.
-  </p>
-  </div>  
-  </td>                                                           
-</table>  
+
+
 
 
 
